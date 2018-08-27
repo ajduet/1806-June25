@@ -12,6 +12,7 @@ import java.io.IOException;
 public class BookServlet extends HttpServlet{
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        // harcoding since before it was cool
         Book b = new Book();
         b.setTitle("Web Programming for Dummies");
         b.setAuthor("August Duet");
